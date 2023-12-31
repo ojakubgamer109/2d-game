@@ -1,0 +1,22 @@
+[gd_resource type="VisualShader" load_steps=2 format=3 uid="uid://dx5tgcn0xmi7f"]
+
+[sub_resource type="VisualShaderNodeGlobalExpression" id="VisualShaderNodeGlobalExpression_q3y8y"]
+size = Vector2(250, 150)
+
+[resource]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+
+
+// GlobalExpression:0
+	
+"
+mode = 1
+flags/light_only = false
+nodes/fragment/2/node = SubResource("VisualShaderNodeGlobalExpression_q3y8y")
+nodes/fragment/2/position = Vector2(120, 180)
+nodes/fragment/2/size = Vector2(250, 150)
+nodes/fragment/2/input_ports = ""
+nodes/fragment/2/output_ports = ""
+nodes/fragment/2/expression = ""

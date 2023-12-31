@@ -516,8 +516,11 @@ scale = Vector2(2.36, 2.4)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(10.3333, 0)
+ignore_rotation = false
+limit_smoothed = true
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
+rotation_smoothing_enabled = true
 
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true

@@ -558,6 +558,9 @@ position = Vector2(1656, -79)
 [node name="Colletible10" parent="coletibles" instance=ExtResource("4_u6w8n")]
 position = Vector2(1855, 362)
 
+[node name="Colletible11" parent="coletibles" instance=ExtResource("4_u6w8n")]
+position = Vector2(1559, 132)
+
 [node name="Finish" parent="." instance=ExtResource("6_s3jix")]
 position = Vector2(2111, 377)
 target_level = ExtResource("7_fuero")

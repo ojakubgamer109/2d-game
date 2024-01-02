@@ -527,7 +527,7 @@ script = ExtResource("5_pgivb")
 [node name="coletibles" type="Node" parent="."]
 
 [node name="Colletible" parent="coletibles" instance=ExtResource("4_u6w8n")]
-position = Vector2(676, 313)
+position = Vector2(684, 321)
 
 [node name="Colletible12" parent="coletibles" instance=ExtResource("4_u6w8n")]
 position = Vector2(398, 764)
